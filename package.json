@@ -1,0 +1,20 @@
+{
+  "name": "austatus",
+  "version": "1.0.0",
+  "description": "Discord RPC client for AU.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kek",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "acronymresolver": "^1.1.2",
+    "discord-rpc": "github:discordjs/RPC",
+    "random-coordinates": "^1.0.1"
+  },
+  "devDependencies": {
+    "register-scheme": "github:devsnek/node-register-scheme"
+  },
+  "bin": "index.js"
+}
